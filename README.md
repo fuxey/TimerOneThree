@@ -12,14 +12,11 @@ Timer1.initialize(2000); // sets timer1 to a period of 2000 microseconds
 Timer3.initialize(2000); // does the same for timer3
 
 The commands are the same as in the TimerOne library. The pinmapping is taken from maniacbug's mighty ATmega1284P. http://maniacbug.wordpress.com/2011/11/27/arduino-on-atmega1284p-4/
-
-  pin 6 is Timer3A
-  
-  pin 7 is Timer3B
-
-  pin 13 is Timer1A
-
-  pin 12 is Timer1B
+* pin 6 is Timer3A
+* pin 7 is Timer3B
+* pin 13 is Timer1A
+* pin 12 is Timer1B
 
 So when you want to set use timer3A to generate a pwm with 50% duty cycle:
+
 Timer3.pwm(6, 511);  // duty cycle goes from 0 to 1023
