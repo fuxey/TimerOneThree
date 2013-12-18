@@ -13,7 +13,7 @@ The commands are the same as in the TimerOne library. The pinmapping is taken fr
 
 ### Installation and usage
 
-To install simply download the zip file and extract it in your libraries folder of the arduino IDE. Then restart the IDE. In your sketch type:  
+To install simply create a folder named TimerOneThree in your libraries folder of the arduino IDE. Download the zip archive. Copy all files from the zip archive into the TimerOneThree folger. Then restart the IDE. In your sketch type:  
 `#include <TimerOneThree.h>`
 
 With the TimerOneThree lib both timer1 and timer3 of the ATmega1284P can be used in the same way, e. g:
